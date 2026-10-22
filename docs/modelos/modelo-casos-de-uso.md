@@ -234,13 +234,13 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Escenario principal de éxito:** 1. El usuario solicita actualizar su perfil. 2. El sistema muestra los datos actuales del perfil. 3. El usuario modifica el nombre, el teléfono, la dirección y sus preferencias dietéticas. 4. El usuario solicita guardar los cambios. 5. El sistema comprueba que los datos sean válidos. 6. El sistema guarda los cambios realizados. 7. El sistema confirma que el perfil se ha actualizado correctamente.
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):** Los datos no son válidos: 1. El sistema indica que hay datos incorrectos. 2. El usuario corrige los datos. 3. El flujo vuelve al paso 4.
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** Con éxito: El perfil del usuario se cambia correctamente con los nuevos datos. Sin éxito: El perfil mantiene los datos anteriores. 
 
-**Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
+**Reglas y NFR pertinentes:** UR-03, FR-19, Acta de UC-05.
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Preguntas abiertas:** No hay preguntas.
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
