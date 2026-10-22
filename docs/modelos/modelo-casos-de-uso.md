@@ -223,17 +223,16 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 ### 6.1 Descripción detallada UC-05 — Actualizar perfil
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** UC-05 | Actualizar perfil
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** Permitir que cualquier usuario modifique todos los datos de su cuenta.
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** Usuario y Servicio de correo electrónico.
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** El usuario ha iniciado sesión. Los datos introducidos son válidos.
+**Inicio:** El usuario solicita actualizar su perfil.
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
-
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** 1. El usuario solicita actualizar su perfil. 2. El sistema muestra los datos actuales del perfil. 3. El usuario modifica el nombre, el teléfono, la dirección y sus preferencias dietéticas. 4. El usuario solicita guardar los cambios. 5. El sistema comprueba que los datos sean válidos. 6. El sistema guarda los cambios realizados. 7. El sistema confirma que el perfil se ha actualizado correctamente.
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
