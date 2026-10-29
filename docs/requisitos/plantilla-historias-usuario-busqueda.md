@@ -15,27 +15,29 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como persona usuaria registrada, quiero tener la capacidad de aplicar criterios de búsqueda, para encontrar exactamente las recetas afines a los criterios aplicados.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
+Como criterios de búsqueda es una capacidad amplia, se necesita descomponer la épica en tres historias de usuario para especificar qué criterios de búsqueda se van a definir.
+
+Se consideran la búsqueda por una palabra o frase (US-01), la búsqueda por ingredientes (US-02), y la exclusión de ingredientes (US-03).
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar mediante palabras clave
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como persona usuaria registrada, quiero tener la capacidad de buscar una receta mediante una palabra o frase clave, para encontrar sin necesidad de añadir más filtros las recetas que deseo ver.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, Apartado 2 - Acuerdos, "La búsqueda por texto comprueba si la palabra o frase aparece en el título o en la descripción breve. Una frase debe aparecer seguida y en el mismo orden. No se distinguen mayúsculas ni tildes.".
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado una búsqueda por palabra clave, cuando se indique la palabra y se realice la búsqueda, entonces se mostrarán las recetas con esas palabras en el título o en la descripción breve.
+- **CA-02.** Dado una búsqueda por frase clave, cuando se indique una frase de varias palabras y se realice la búsqueda, entonces se mostrarán únicamente las recetas en las que esas palabras aparezcan seguidas y en el mismo orden dentro del título o de la descripción breve.
+- **CA-03.** Dado una búsqueda por palabra o frase clave, cuando se indique el término con o sin tildes y en mayúsculas o minúsculas y se realice la búsqueda, entonces se mostrarán las recetas coincidentes en el título o en la descripción breve sin distinguir mayúsculas ni tildes.
 
 ## US-02
 
